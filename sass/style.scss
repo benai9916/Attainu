@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 380px;
+    border: 1px solid gray;
+    border-radius: 6px;
+
+    .heading {
+        height: 140px;
+        background-color: purple;
+        padding: 30px;
+
+        h3 {
+            margin: 0;
+            font-size: 24px;
+            color: white;
+        }
+
+        p {
+            font-size: 16px;
+            margin-top: 10px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        input {
+            height: 40px;
+            width: 100%;
+            border: none;
+            border-radius: 20px;
+            padding-left: 10px;
+            background-color: lightblue;
+        }
+    }
+
+    .user {
+        height: 400px;
+        width: 100%;
+        overflow: auto;
+
+        &__list {
+            padding: 30px;
+            display: flex;
+            border-bottom: 1px solid black;
+
+            img {
+                height: 80px;
+                width: 80px;
+                border-radius: 99px;
+                margin-right: 20px;
+            }
+        }
+
+        &__detail {
+            display: block;
+
+            h4 {
+                font-size: 20px;
+                margin: 0 0 6px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

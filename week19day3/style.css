@@ -1,0 +1,12 @@
+
+
+.header, .body {
+    width: 500px;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+span {
+    flex-basis: 50%;
+}

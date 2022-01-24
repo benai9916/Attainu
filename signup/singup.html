@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section class="section">
+            <form name="signup">
+                <h2>Sign up</h2>
+
+                <div class="basic-info">
+                    <div class="sub-heading">
+                        <div class="number">
+                            <p>1</p>
+                        </div>
+                        <p>Your Basic Info</p>
+                    </div>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" />
+                
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" />
+
+                    <div class="age">
+                        <p>Age:</p>
+                        <div class="age-radio">
+                            <input type="radio" id="under-13" name="age" value="Under 13"/>
+                            <label for="under-13">Under 13</label>
+                        </div>
+
+                        <div class="age-radio">
+                            <input type="radio" id="over-13" name="age" value="Over 13"/>
+                            <label for="over-13">Over 13</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="profile">
+                    <div class="sub-heading">
+                        <div class="number">
+                            <p>2</p>
+                        </div>
+                        <p>Your Profile</p>
+                    </div>
+
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio" rows="6" cols="50"></textarea>
+
+                    <label  for="job-role">Jobe Role:</label>
+                    <select name="job-role">
+                        <optgroup label="Web">
+                            <option value="front-end">Front end Developer</option>
+                            <option value="PHP-Developer">PHP Developer</option>
+                            <option value="python">ptyhon Developer</option>
+                            <option value="rails">rails Developer</option>
+                            <option value="web">web Developer</option>
+                        </optgroup>
+                        <optgroup label="Mobile">
+                            <option value="andriod">android Developer</option>
+                            <option value="mobile">mobile Developer</option>
+                            <option value="ios">IOS Developer</option>
+                        </optgroup>
+                        <optgroup label="Business">
+                            <option value="businees">businees owner</option>
+                            <option value="freelance">fareelance</option>
+                        </optgroup>
+                    </select>
+
+                    <div class="interest">
+                        <input type="checkbox"  id="interest1" name="interest1" value="developer"/>
+                        <label for="interest1">Development</label>
+                    </div>
+                        <div class="interest">
+                        <input type="checkbox"  id="interest2" name="interest2" value="design"/>
+                        <label for="interest2">Design</label>
+                    </div>
+                        <div class="interest">
+                        <input type="checkbox"  id="interest3" name="interest3" value="businees"/>
+                        <label for="interest3">Business</label>
+                    </div>
+                    </div>
+
+                    <button type="button" class="sign-up">Sign up</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
