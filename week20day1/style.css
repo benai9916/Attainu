@@ -1,0 +1,36 @@
+section {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.container {
+    position: relative;
+    padding: 40px;
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+input[type=button] {
+    height: 40px;
+    background-color: lightcoral;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+
+.button_align {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}

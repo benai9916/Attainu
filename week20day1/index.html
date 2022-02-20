@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz application</title>
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <div class="quiz_wrapper">
+                <h1>Dynamic quiz</h1>
+
+                <h2 class="question_no"></h2>
+                <p class="question"></p>
+
+                <form name="mainForm">
+                    <input type="radio" class="q1" name="quiz">
+                    <label class="q1_lable"></label><br>
+
+                    <input type="radio" class="q2" name="quiz">
+                    <label class="q2_lable"></label><br>
+
+                    <input type="radio" class="q3" name="quiz">
+                    <label class="q3_lable"></label><br>
+
+                    <input type="radio" class="q4" name="quiz">
+                    <label class="q4_lable"></label><br>
+                </form>
+
+                <div class="button_align">
+                <input type="button" value="prev" class="prev" onclick="prev()">
+                <input type="button" value="next"  class="next" onclick="next()">
+                <input type="button" value="Start over" class="restart" onclick="restart()">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
