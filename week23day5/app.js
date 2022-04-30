@@ -29,7 +29,8 @@ mongoose.connect("mongodb+srv://ben_attainu:attainu123@cluster0.9hki4.mongodb.ne
 
 // router
 app.get('/signup', (req, res) => {
-    res.render('signup')
+    console.log("====", req.body)
+    // res.render('signup')
 })
 
 app.use('/home', signUpRouter)
